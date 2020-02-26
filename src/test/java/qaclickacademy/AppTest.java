@@ -13,16 +13,15 @@ public class AppTest
    
     public AppTest( String testName )
     {
-        super( testName );
+  
         System.out.println("test");
     }
 
     /**
-     * @return the suite of tests being tested
      */
-    public static Test suite()
+    public static void suite()
     {
-        return new TestSuite( AppTest.class );
+        System.out.println("testing");
     }
 
     /**
@@ -31,6 +30,6 @@ public class AppTest
     public void testApp()
     {
         assertTrue( true );
-        System.out.println("ssisisiisisis");
+        System.out.println("nononoonononon");
     }
 }
